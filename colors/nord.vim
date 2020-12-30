@@ -20,7 +20,10 @@ let s:nord0_gui = "#2E3440"
 let s:nord1_gui = "#3B4252"
 let s:nord2_gui = "#434C5E"
 let s:nord3_gui = "#4C566A"
-let s:nord3_gui_bright = "#616E88"
+
+" nord3_gui_bright is used for comments, which are hard
+" to read in default nord. Update this to a brighter color
+let s:nord3_gui_bright = "#7b88a1"
 let s:nord4_gui = "#D8DEE9"
 let s:nord5_gui = "#E5E9F0"
 let s:nord6_gui = "#ECEFF4"
